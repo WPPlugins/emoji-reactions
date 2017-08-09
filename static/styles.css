@@ -1,0 +1,96 @@
+.emojiemo-widget {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.emojiemo-widget .emojiemo-selector {
+  display: none;
+
+  background-color: #E2E2E2;
+  position: absolute;
+  border-radius: 5px;
+
+  padding: 8px;
+
+  z-index: 10000;
+}
+
+.emojiemo-widget .emojiemo-selector .emojiemo-selector-panels > .emojiemo-selector-panel {
+  height: 180px;
+  overflow-y: scroll;
+  display: none;
+  background-color: #DADADA;
+}
+
+.emojiemo-widget .emojiemo-selector .emojiemo-selector-panels .emojiemo-selector-panel:first-child {
+  display: block;
+}
+
+.emojiemo-widget .emojiemo-selector hr {
+  margin-top: 6px;
+  margin-bottom: 5px;
+}
+
+.emojiemo-widget .emojiemo-selector .emojiemo-selector-headers {
+  text-align: center;
+  height: 36px;
+}
+
+.emojiemo-widget .emojiemo-selector .emojiemo-selector-headers .emojiemo-selector-header-active {
+  background-color: #DADADA;
+}
+
+.emojiemo-widget .emojiemo-selector .emojiemo-selector-headers .emojiemo-selector-header {
+  cursor: pointer;
+  padding: 4px;
+  padding-top: 8px;
+  padding-bottom: 16px;
+}
+
+.emojiemo-widget .emojiemo-selector .emojiemo-emotion {
+  padding: 4px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  line-height: 2em;
+}
+
+.emojiemo-widget .emojiemo-selector .emojiemo-attribution {
+    font-size: 9px;
+    font-family: Arial;
+    text-align: right;
+    padding-top: 6px;
+}
+
+.emojiemo-widget .emojiemo-existing {
+  display: inline-block;
+}
+
+.emojiemo-widget .emojiemo-existing .emojiemo-existing-emoji {
+  display: inline-block;
+}
+
+.emojiemo-widget .emojiemo-emotion {
+  cursor: pointer;
+}
+
+
+.emojiemo-widget .emojiemo-add {
+  cursor: pointer;
+  margin-left: 0.2em;
+  width: 2.9em;
+  display: inline-block;
+
+  background-size: contain;
+  background-image: url(add.png);
+  background-repeat: no-repeat;
+
+  padding: -.2ex .15em .2ex;
+}
+
+.emojiemo-widget .emojiemo-add:hover {
+  background-image: url(add_hover.png);
+}
+
+.emojiemo-widget .emojiemo-add img {
+  visibility: hidden;
+}
